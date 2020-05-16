@@ -16,8 +16,8 @@
 		Select Tickets => TicketNumber = *
 		Execute Custom Module => 
 			Module 			=> Kernel::System::Ticket::Event::TicketIncidentDuration
-			StartField 		=> **Ticket DF Name of start datetime
-			EndField		=> **Ticket DF Name of end datetime
+			StartField 		=> **Ticket DynamicField Name of start datetime
+			EndField		=> **Ticket DynamicField Name of end datetime
 			IncidentTiming	=> IncidentDuration
 			BusinessTiming	=> BusinessImpactDuration
 
